@@ -9,5 +9,13 @@ public class Carro {
     // (camel case)
     public String placa;
     public TipoVehiculo TipoVehiculo;
+    public Carro() {
+    }
+    public Carro(String placa, org.ficha2902082.maven.parking.andres.entities.TipoVehiculo tipoVehiculo) {
+        this.placa = placa;
+        TipoVehiculo = tipoVehiculo;
+    }
+
+    
 
 }

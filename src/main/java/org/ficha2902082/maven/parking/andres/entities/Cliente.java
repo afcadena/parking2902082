@@ -10,9 +10,23 @@ public class Cliente {
         public tipoDocumento tipoDocumento;
         public Long numeroDocumento;
         public Long celular;
+        public List<Carro> misCarros; 
+                        
+                
+        public Cliente(String nombre,
+                        String apellido,
+                        tipoDocumento tipoDocumento, 
+                        Long numeroDocumento,
+                        Long celular) {
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.tipoDocumento = tipoDocumento;
+            this.numeroDocumento = numeroDocumento;
+            this.celular = celular;
+            this.misCarros = new ArrayList<Carro>();
 
-        public List<Carro> misCarros= 
-                                        new ArrayList<Carro>();
+        }
+
         //metodo 1: añadir carro al cliente
         //definir metodo (firma del metodo - signature)
         // -modificador acceso
@@ -37,5 +51,7 @@ public class Cliente {
         //en una clase se permiten metodos
         //con el mismo nombre pero
         //con diferente firma
+
+
 
 }
