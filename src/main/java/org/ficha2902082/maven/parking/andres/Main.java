@@ -70,6 +70,7 @@ public class Main {
          */
 
         misRegistros.add(registro1);
+        misRegistros.add(registro2);
         
         //Recorrer la lista de registros
 
