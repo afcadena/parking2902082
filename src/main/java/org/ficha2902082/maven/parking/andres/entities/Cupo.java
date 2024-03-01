@@ -9,9 +9,6 @@ public class Cupo {
 
     //Constructor 
     public Cupo() {
-
-
-
     }
 
     /*Constructor de Clase: Metodo especial en una entidad
